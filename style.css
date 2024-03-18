@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rebeccapurple;
+    margin: auto;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+.main {
+    background: white;
+    margin: 6rem 7rem 6rem 7rem;
+    height: auto;
+}
+.header {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    border-bottom: 7px solid black;
+}
+.pic {
+    padding: 3rem;
+   margin: 3rem 0 3rem 4rem;
+}
+.header-information {
+    border-top: 7px solid black;
+    
+    margin: 5rem;
+    font-size: 30px;
+}
+.name {
+    padding-top: 2rem;
+    font-size: 80px;
+font-weight: bold;
+}
+
+.position{
+
+}
+.main-body {
+    margin-top: 2rem;
+    text-align: center;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+ 
+}
+
+li {
+    font-size: 30px;
+    text-align: left;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.desc-group {
+    width: 40rem;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.desc-title{
+    font-size: 17px;
+}
+
+.desc-date {
+    font-size: 18px;
+    padding: 1rem;
+    letter-spacing: 3px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.skills {
+}
+.education {
+}
+.contact {
+}
